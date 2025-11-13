@@ -22,23 +22,19 @@
             <div>
               <input
                 type="radio"
-                name="drunk5k"
+                name="races"
                 id="drunk5k"
                 value="drunk-5k"
               /><label for="drunk5k">Drunken 5k</label>
-            </div>
-            <div>
               <input
                 type="radio"
-                name="drunkHalfMarathon"
+                name="races"
                 id="drunkHalfMarathon"
                 value="drunkHalfMarathon"
               /><label for="drunkHalfMarathon">Drunken Half Marathon</label>
-            </div>
-            <div>
               <input
                 type="radio"
-                name="drunkMarathon"
+                name="races"
                 id="drunkMarathon"
                 value="drunk-marathon"
               /><label for="drunkMarathon">Drunken Marathon</label>
@@ -47,9 +43,19 @@
 
           <p>
             <label for="email">Email</label
-            ><input type="email" name="email" id="email" />
+            ><input type="email" name="email" id="email" required />
             <label for="password">Password</label
-            ><input type="password" name="password" id="password" />
+            ><input type="password" name="password" id="password" required />
+          </p>
+
+          <p>
+            <label for="age-group-select">Select Age Group</label>
+            <select name="age-group-select" id="age-group-select">
+              <option value="under-21">Under 21</option>
+              <option value="21-24">21-24</option>
+              <option value="24-28">24-28</option>
+              <option value="28-over">28-over</option>
+            </select>
           </p>
 
           <button type="submit">Register!</button>
