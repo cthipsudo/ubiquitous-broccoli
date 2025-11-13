@@ -1,19 +1,60 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Oskar's Marathon for funsies</h1>
+        <form action="">
+          <p>
+            <label for="firstName">First Name</label
+            ><input type="text" name="firstName" id="firstName" required />
+            <label for="lastName">Last Name</label
+            ><input type="text" name="lastName" id="lastName" required />
+          </p>
+          <p>Select a Race:</p>
+          <fieldset>
+            <legend>Races Available</legend>
+            <div>
+              <input
+                type="radio"
+                name="drunk5k"
+                id="drunk5k"
+                value="drunk-5k"
+              /><label for="drunk5k">Drunken 5k</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="drunkHalfMarathon"
+                id="drunkHalfMarathon"
+                value="drunkHalfMarathon"
+              /><label for="drunkHalfMarathon">Drunken Half Marathon</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="drunkMarathon"
+                id="drunkMarathon"
+                value="drunk-marathon"
+              /><label for="drunkMarathon">Drunken Marathon</label>
+            </div>
+          </fieldset>
 
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime consequatur
-  saepe quo blanditiis exercitationem reprehenderit magnam neque perspiciatis,
-  harum quidem. Laudantium quidem dolorem accusantium hic veniam? Sint est at
-  tempora? Aliquid et iusto, veniam ipsam excepturi sed inventor e. Nobis iure
-  earum, quos officiis cum impedit nam magni rerum placeat. Quaerat commodi est
-  impedit quae esse. Odio blanditiis maiores eius numquam? impedit quae esse.
-  Odio blanditiis maiores eius numquam?
-</p>
+          <p>
+            <label for="email">Email</label
+            ><input type="email" name="email" id="email" />
+            <label for="password">Password</label
+            ><input type="password" name="password" id="password" />
+          </p>
 
-<!-- Use shift + Alt + Down Arrow to duplicate multiple lines -->
-<ol>
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
-  <li>test</li>
-</ol>
+          <button type="submit">Register!</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
